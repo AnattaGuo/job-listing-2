@@ -20,32 +20,32 @@
  @import "font-awesome";
 
  .jumbotron {
-  background-image:url('https://ww4.sinaimg.cn/large/006tNc79jw1fc7cgcqtp2j30zk0np0ui.jpg');
+  background-image:url('#');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .title {
   font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-  text-align: top;
+  text-align: center;
   margin-top: 200px;
   margin-bottom: 80px;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .slogan {
   margin-top: 10px;
   margin-bottom: 50px;
-  text-align: top;
-  color: #FFFFFF;
+  text-align: center;
+  color: #000000;
   top: 12px;
 }
 
 .lead {
   margin-bottom: 60px;
-  text-align: top;
+  text-align: center;
   color: white;
 }
 
