@@ -13,65 +13,79 @@
  *= require_tree .
  *= require_self
  *= require font-awesome
+
+ * #DaftPunKonsole
+ * Malik Dellidj - @Dathink
+ *
+ * There are existing apps or flash to do this, but no web version so here it is.
+ *
+ * How to play :
+ * You may notice that in the song all theses words are used
+ * but sometimes in a different layout
+ * e.g.
+ * – Work it, make it, do it, makes us
+ * – Harder, better, faster, stronger
+ * –––
+ * – Work it, harder, make it, better
+ * – Do it, faster, makes us, stronger
+ *
+ * Check the lyrics ! and the different tones to recreate over half of the song !
+ *
+ * Many thanks to my work mates who helped me when I was stuck
+ *
+ * Nb : Hey IE fellaz, get a browser : www.google.com/chrome, it's free !
+
  */
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
 
- .jumbotron {
-  background-image:url('#');
-  background-color: #00bcd4;
+ @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+ h1, p {
+   font-family: 'Noto Serif', serif;
+   text-align: center;
+   text-shadow: 0 0 10px rgba(0,0,0,0.3);
+ }
+
+p {
+  font-size: 2rem;
+}
+
+.box {
+  background-image: url(#);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 110px;
-  color: #ffffff;
+  padding-top: 250px;
+  padding-bottom: 250px;
+
 }
 
-.title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 80px;
-  color: #000000;
+.bg-1 {
+  background-color: #f5f6f7;
 }
 
-.slogan {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  text-align: center;
-  color: #ffffff;
-  top: 12px;
+.bg-2 {
+  background-color: #ffff00;
 }
+
+.bg-3 {
+  background-color: #e9cae8;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
 
 .lead {
   margin-bottom: 60px;
   text-align: center;
+  color: white;
 }
 
-.caption {
-  margin: 30px;
-  text-align: center;
-  top: 20px;
-}
-
-.thumbnail {
-    border: 0 none;
-    box-shadow: none;
-    margin-top: 60px;
-}
-
-.custab{
-  border: 1px solid #ccc;
-
-  padding: 5px;
-  margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;
-
-  transition: 0.5s;
-}
-
-.custab:hover{
-  box-shadow: 3px 3px 0px transparent;
-  transition: 0.5s;
+.footer-box {
+  margin-top: 30px;
+  font-size: 1rem;
 }
